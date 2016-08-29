@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/smartdevicelink/sdl_core.svg?branch=develop)](https://travis-ci.org/smartdevicelink/sdl_core)  **Ubuntu Linux 14.04 x64**
 
-[![Build Status](http://109.166.244.153/app/rest/builds/buildType:WinSdlDevelop_WinX64withUt/statusIcon)](http://109.166.244.153/viewType.html?buildTypeId=WinSdlDevelop_WinX64withUt&guest=1)  **Windows 7 x64**
+[![Build Status](htSDL_SQLITE_DIRtp://109.166.244.153/app/rest/builds/buildType:WinSdlDevelop_WinX64withUt/statusIcon)](http://109.166.244.153/viewType.html?buildTypeId=WinSdlDevelop_WinX64withUt&guest=1)  **Windows 7 x64**
 
 [![Build Status](http://109.166.244.153/app/rest/builds/buildType:QtSdlDevelop_QtX86withUt/statusIcon)](http://109.166.244.153/viewType.html?buildTypeId=QtSdlDevelop_QtX86withUt&guest=1)  **Windows 7 x86 QT**
 
@@ -63,8 +63,8 @@ environment variable
 * Download and install [GStreamer SDK](http://docs.gstreamer.com/display/GstSDK/Installing+on+Windows). You will need both Runtime and Development files. Add path to **bin** folder to `PATH`. Create new environment variable `SDL_GSTREAMER_DIR` with path to SDK (e.g. `D:\gstreamer-sdk\0.10\x86_64`).
 
 ##### Steps for Windows platform
-* Download [sqlite3 sources](https://www.sqlite.org/2015/sqlite-amalgamation-3090200.zip) and extract them. Create new environment variable `SDL_SQLITE_DIR` and assign path where sqlite sources were extracted to this variable.
-* Download [sqlite3 binaries](https://www.sqlite.org/2015/sqlite-dll-win64-x64-3090200.zip). Extract them and add this folder to `PATH`.
+* Download [sqlite3 sources](https://www.sqlite.org/2015/sqlite-amalgamation-3090200.zip) and extract them.
+* Download [sqlite3 binaries](https://www.sqlite.org/2015/sqlite-dll-win64-x64-3090200.zip). Extract them and add this folder to `PATH`. Create new environment variable `SDL_SQLITE_DIR` and assign path where sqlite binaries were extracted to this variable.
 * Install [Windows SDK 7.1](https://www.microsoft.com/en-us/download/details.aspx?id=8442)
 * Install [Visual Studio 2013](https://www.microsoft.com/en-us/download/confirmation.aspx?id=44914)
 

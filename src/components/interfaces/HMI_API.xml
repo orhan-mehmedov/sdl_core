@@ -2130,7 +2130,7 @@
     </function>
 </interface>
 
-<interface name="BasicCommunication" version="1.0" date="2013-04-12">
+<interface name="BasicCommunication" version="1.1" date="2016-12-01">
     <function name="OnReady" messagetype="notification">
       <description>HMI must notify SDL about its readiness to start communication. In fact, this has to be the first message between SDL and HMI.</description>
     </function>
